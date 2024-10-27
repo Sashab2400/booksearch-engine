@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 //import { ApolloProvider } from "@apollo/client";
-import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
+import { ApolloClient, InMemoryCache } from '@apollo/client';
 //import ApolloClient from "apollo-boost";
-import SearchBooks from './pages/SearchBooks';
-import SavedBooks from './pages/SavedBooks';
-import Navbar from './components/Navbar';
+import SearchBooks from './pages/SearchBooks.jsx';
+import SavedBooks from './pages/SavedBooks.jsx';
+import Navbar from './components/Navbar.jsx';
 
 /*const client = new ApolloClient({
   request: (operation) => {
